@@ -91,3 +91,13 @@ git commit -m "Add amazing feature"
 
 # Push to branch
 git push origin feature/amazing-feature
+
+
+🚧 Future Development Roadmap
+Core Feature Enhancements
+Feature	Description
+🔒 Auto reload token when it expires
+🤝 Finishin twilio integration to enable calls to contacts with phone number set
+📥 Advanced Import Tools	Drag-and-drop CSV/Excel imports with data validation
+🔍 Improve report routine to full delegate to api its generation
+
