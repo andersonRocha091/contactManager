@@ -74,3 +74,20 @@ contactManager/
 ├── vite.config.js           # Vite configuration
 └── package.json
 ```
+
+🤝 Contributing
+🐛 Report Issues
+Use GitHub Issues with proper labels
+
+💡 Suggest Features
+Create a Feature Request issue
+
+🛠️ Code Contributions
+# Create feature branch
+git checkout -b feature/amazing-feature
+
+# Commit changes
+git commit -m "Add amazing feature"
+
+# Push to branch
+git push origin feature/amazing-feature
