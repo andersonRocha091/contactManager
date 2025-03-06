@@ -29,7 +29,40 @@ git clone https://github.com/andersonRocha091/contactflow.git
 npm install
 
 # 3. Configure environment
-cp .env.example .env
+# inside .env set VITE_BASE_URL that should be something like https://<ngrok url generated>/api
+touch .env 
 
 # 4. Start development server
 npm run dev
+
+
+contactflow/
+├── public/                  # Static assets
+├── src/
+│   ├── assets/              # Global assets
+│   │   ├── styles/          # SCSS/CSS files
+│   │   └── images/          # App images
+│   │
+│   ├── components/          # Reusable UI components
+│   │   ├── common/          # Generic components (Buttons, Cards)
+│   │   ├── contacts/        # Contact-specific components
+│   │   └── charts/          # Data visualization components
+│   │
+│   ├── views/               # Page components
+│   │   ├── Dashboard.vue
+│   │   ├── Contacts.vue
+│   │   └── Settings.vue
+│   │
+│   ├── stores/              # Pinia state management
+│   │   ├── contacts.js
+│   │   └── analytics.js
+│   │
+│   ├── router/              # Vue Router configuration
+│   ├── utils/               # Helper functions
+│   ├── App.vue              # Root component
+│   └── main.js              # App entry
+│
+├── tests/                   # Unit & E2E tests
+├── .env                     # Environment variables
+├── vite.config.js           # Vite configuration
+└── package.json
