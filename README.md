@@ -34,35 +34,43 @@ touch .env
 
 # 4. Start development server
 npm run dev
+```
 
+### Folder Structure
+```bash
 
-contactflow/
+contactManager/
 ├── public/                  # Static assets
 ├── src/
 │   ├── assets/              # Global assets
-│   │   ├── styles/          # SCSS/CSS files
-│   │   └── images/          # App images
+│   │  
 │   │
 │   ├── components/          # Reusable UI components
-│   │   ├── common/          # Generic components (Buttons, Cards)
-│   │   ├── contacts/        # Contact-specific components
-│   │   └── charts/          # Data visualization components
-│   │
-│   ├── views/               # Page components
-│   │   ├── Dashboard.vue
-│   │   ├── Contacts.vue
-│   │   └── Settings.vue
+│   │   ├── contacts/       # Contact-specific components
+|   |   |        ├── AddContactModal.vue
+|   |   |        ├── ContactDetailModal.vue
+|   |   |        ├── ContactItem.vue
+|   |   |        ├── ContactList.vue
+|   |   |        ├── ContactSearchBar.vue
+|   |   |        ├── ContactView.vue
+|   |   |        ├── removeContactModal.vue
+|   |   | 
+│   │   ├──LoadSpinner.vue
+│   │   └── Sidebar.vue
+|   | 
+│   ├── router/              # Vue Router configuration
 │   │
 │   ├── stores/              # Pinia state management
 │   │   ├── contacts.js
-│   │   └── analytics.js
+│   │   └── auth.js
+│   ├── views/               # Page components
+│   │   ├── Analytics.vue
+│   │   ├── Login.vue
 │   │
-│   ├── router/              # Vue Router configuration
-│   ├── utils/               # Helper functions
 │   ├── App.vue              # Root component
 │   └── main.js              # App entry
 │
-├── tests/                   # Unit & E2E tests
 ├── .env                     # Environment variables
 ├── vite.config.js           # Vite configuration
 └── package.json
+```
