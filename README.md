@@ -101,7 +101,6 @@ git push origin feature/amazing-feature
 |-----------------------------|-------------------------------------------------------------------------------|
 | 🔒 Auto-Reload Tokens        | Implement automatic token refresh mechanism before expiration                |
 | 🤝 Twilio Call Integration  | Complete phone system integration for direct calls to contacts' numbers       |
-| 📥 Advanced Import Tools     | Drag-and-drop CSV/Excel imports with live data validation UI                  |
 
 ### Technical Improvements
 - 🔍 **API-Centric Reporting**  
