@@ -1,5 +1,35 @@
-# Vue 3 + Vite
+# Contact Manager 🌐📇
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+**A Modern Contact Management System**  
+*Built with Vue 3, Vite, Chart.js, Material Design, and Bootstrap*
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+[![Vue](https://img.shields.io/badge/Vue-3.4-4FC08D?logo=vue.js)](https://vuejs.org/)
+[![Vite](https://img.shields.io/badge/Vite-4.4-646CFF?logo=vite)](https://vitejs.dev/)
+[![Chart.js](https://img.shields.io/badge/Chart.js-4.0-FF6384?logo=chart.js)](https://www.chartjs.org/)
+
+## ✨ Features
+- 📊 Interactive Dashboard with Contact Analytics
+- 👥 CRUD Operations for Contact Management
+- 🔍 Advanced Search & Filter System
+- 📈 Visual Relationship Charts
+- 📱 Fully Responsive Design
+
+## 🚀 Quick Start
+
+### Prerequisites
+- Node.js 22+
+- npm 10+
+
+### Installation
+```bash
+# 1. Clone repository
+git clone https://github.com/andersonRocha091/contactflow.git
+
+# 2. Install dependencies
+npm install
+
+# 3. Configure environment
+cp .env.example .env
+
+# 4. Start development server
+npm run dev
