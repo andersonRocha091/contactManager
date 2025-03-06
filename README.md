@@ -93,11 +93,20 @@ git commit -m "Add amazing feature"
 git push origin feature/amazing-feature
 
 
-🚧 Future Development Roadmap
-Core Feature Enhancements
-Feature	Description
-🔒 Auto reload token when it expires
-🤝 Finishin twilio integration to enable calls to contacts with phone number set
-📥 Advanced Import Tools	Drag-and-drop CSV/Excel imports with data validation
-🔍 Improve report routine to full delegate to api its generation
+## 🚧 Future Development Roadmap
 
+### Core Feature Enhancements
+
+| 🚀 Feature                  | 📝 Description                                                                 |
+|-----------------------------|-------------------------------------------------------------------------------|
+| 🔒 Auto-Reload Tokens        | Implement automatic token refresh mechanism before expiration                |
+| 🤝 Twilio Call Integration  | Complete phone system integration for direct calls to contacts' numbers       |
+| 📥 Advanced Import Tools     | Drag-and-drop CSV/Excel imports with live data validation UI                  |
+
+### Technical Improvements
+- 🔍 **API-Centric Reporting**  
+  Refactor reporting system to fully delegate generation logic to backend API
+- ⚡ **Optimized Token Handling**  
+  Implement secure token storage with refresh token rotation strategy
+- 📊 **Report Caching System**  
+  Add client-side caching mechanism for frequently generated reports
